@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # https://pythonworld.ru/osnovy/tasks.html
 
 
