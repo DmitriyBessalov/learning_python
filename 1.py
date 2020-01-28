@@ -27,6 +27,6 @@ def date(dd, mm, yyyy):
     """Задача 7"""
     try:
         time.strptime(str(dd) + '.' + str(mm) + '.' + str(yyyy), '%d.%m.%Y')
-        return 'Дата существует'
+        return 'true'
     except ValueError:
-        return 'Дата несуществует'
+        return 'false'
