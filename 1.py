@@ -30,3 +30,6 @@ def date(dd, mm, yyyy):
         return 'true'
     except ValueError:
         return 'false'
+
+
+print(date(29, 2, 2021))
