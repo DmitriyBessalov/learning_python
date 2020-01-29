@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#https://docs.google.com/document/d/1DUYn0wdpSdWkR0oItY3dIrIqd_1P6_KAjJ9sVcuRbbc/edit
 code200 = 0
 code500 = ''
 ip = set()
@@ -17,6 +18,6 @@ f = open('error500.log', 'w')
 f.write(code500)
 f.close()
 
-print('Количество успешных ответов от сервера:', code200)
+print('Количество успешных get ответов от сервера:', code200)
 
 print('Уникальные IP:', ', '.join(ip))
